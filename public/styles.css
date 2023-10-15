@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4f78d7;
+    /* background-image: linear-gradient(red, yellow); */
+    background-image: radial-gradient(#95a4f1, #4f96bf, #9600ff);
+    margin: 0;
+    padding: 0;
+}
+
+.kanban-board {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.column {
+    width: 200px;
+    background-color: #9ad2f7;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 10px;
+    min-height: 300px;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.column-header {
+    font-weight:bold;
+    margin-bottom: 0px;
+}
+
+.task {
+    background-color: #f09393;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
